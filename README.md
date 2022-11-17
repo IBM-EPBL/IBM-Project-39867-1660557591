@@ -1,8 +1,8 @@
 <p align="center">
 <a href="https://careereducation.smartinternz.com/Student/guided_project_workspace/39869">
+ <img src="https://www.freepnglogos.com/uploads/ibm-logo-png/ibm-logo-png-transparent-svg-vector-bie-supply-3.png" alt="Alt text" title="Optional title" height="100" width="100">
 </a> 
 <a href="https://github.com/IBM-EPBL/IBM-Project-39867-1660557591">
- <img src="https://www.freepnglogos.com/uploads/ibm-logo-png/ibm-logo-png-transparent-svg-vector-bie-supply-3.png" alt="Alt text" title="Optional title" height="100" width="100">
 </a>
 <h1 align="center">FERTILIZERS RECOMMENDATION SYSTEM FOR DISEASE PREDICTION <a href="https://github.com/IBM-EPBL/IBM-Project-39867-1660557591"><picture>
 </picture></a></h1>
