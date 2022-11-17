@@ -12,7 +12,7 @@
      <li>GOUTHAM. D</li>
        <li>PRATHAP. S</li>
          <li>YUVA PRAKASH. K</li></ul>
---------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
 <h3>INTRODUCTION</h3>
 <p>
 <ul>
@@ -20,17 +20,17 @@
  <li>Application of computer vision and image processing strategies simply assist farmers in all of the regions of agriculture. Generally, the plant diseases are caused by the abnormal physiological functionalities of plants. Therefore, the characteristic symptoms are generated based on the differentiation between normal physiological functionalities and abnormal physiological functionalities of the plants. Mostly, the plant leaf diseases are caused by Pathogens which are positioned on the stems of the plants.</li>
  </ul>
  </p>
- --------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
  <h3>PROBLEM STATEMENT</h3>
  <ul>
   <li><p>Agriculture is the most important sector in today’s life. Most plants are affected by a wide variety of bacterial and fungal diseases. Diseases on plants placed a major constraint on the production and a major threat to food security. Hence, early and accurate identification of plant diseases is essential to ensure high quantity and best quality.</li></p>
 </ul>
---------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
  <h3>PROBLEM SOLUTION</h3>
  <ul>
   <li><p>An automated system is introduced to identify different diseases on plants by checking the symptoms shown on the leaves of the plant. Deep learning techniques are used to identify the diseases and suggest the precautions that can be taken for those diseases.</p></li>
   </ul>
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
    <h3>BENEFITABLE PERSONS</h3>
    <ul>
   <li>Farmers</li>
@@ -38,7 +38,7 @@
   <li>Common peoples</li>
   <li>Sellers and Buyers</li>
   </ul>
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
   <h3>SYSTEM REQUIREMENTS</h3>
   <h3>Front - End</h3>
   <ul>
@@ -54,7 +54,7 @@
   <li>Convolutional Nueral Network(CNN)</li>
   <li>Deep learning Algorithms</li>
   </ul>
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
    
   
   
