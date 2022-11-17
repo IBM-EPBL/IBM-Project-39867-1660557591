@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    </head>
+        <body>
+          
+            <div class="v195_2">
+              <div class="container1">
+                <div class="v195_6">
+                    <img src="{{value}}" alt="" style="height:90%; background-size: cover; width:100%; position:absolute;">
+                </div>
+                <div class="v213_22"></div>
+                <span class="v214_23">{{Disease}}</span>
+              </div>
+              <div class="container">
+                  <div class="v215_24">
+                    <span class="v215_27">Disease</span>
+                  <div class="v195_4">{{Disease}}</div>
+                  <div class="v215_37">
+                    <img src="static\upload\Vector.png" alt="">
+                  </div>
+                  </div>
+                <div class="v215_30">
+                  <span class="v215_33">Fertilizer</span>
+                  <span class="v215_34">
+                    {{pred_output}}
+                  </span>
+                  <img src="static\upload\Vector (1).png" alt="" class="fert">
+                </div>
+                </div>
+              </div>
+            </div>
+        </body>
+</html> 
+<br/><br/> 
+<style>*{
+  box-sizing: border-box;
+  }
+
+  body {
+  font-size: 14px;
+  }
+  .back {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .v195_2 {
+    width: 100%;
+    height: 100%;
+    background-image: url("static/images/green-wall-mockup-with-green-plant-shelf3d-rendering.jpg");
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    overflow: hidden;
+  }
+  .v195_6 {
+    width: 350px;
+    height: 350px;
+    opacity: 1;
+    position: absolute;
+    top: 85px;
+    left: 83px;
+    border: 1px solid rgba(204,204,204,1);
+    border-radius: 28px;
+    overflow: hidden;
+  }
+  .v213_22 {
+    width: 349px;
+    height: 55px;
+    background: rgb(144, 220, 252);
+    opacity: 1;
+    position: absolute;
+    top: 399px;
+    left: 83.5px;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    overflow: hidden;
+  }
+  .v214_23 {
+    width: 181px;
+    color: rgba(10, 0, 0, 0.911);
+    position: absolute;
+    top: 408px;
+    left: 130px;
+    font-family: Inter;
+    font-weight: Semi Bold;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v215_24 {
+    width: 730px;
+    height: 200px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 60px;
+    left: 480px;
+    border: 1px solid rgba(204,204,204,1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+  }
+  .v215_25 {
+    width: 67px;
+    height: 100px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: -30px;
+    left: 30px;
+    overflow: hidden;
+  }
+  .v215_26 {
+    width: 25px;
+    height: 25px;
+    background: rgba(99,172,125,1);
+    opacity: 1;
+    position: absolute;
+    top: -30px;
+    left: 5px;
+  }
+  .v215_27 {
+    width: 125px;
+    color: rgba(99,172,125,1);
+    position: absolute;
+    top: 35px;
+    left: 109px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v195_4 {
+    width: 469px;
+    color: rgba(13,43,23,1);
+    position: absolute;
+    top: 101px;
+    left: 109px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v215_29 {
+    width: 730px;
+    height: 400px;
+    background: url("../images/v215_29.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 412px;
+    left: 564px;
+    overflow: hidden;
+  }
+  .v215_30 {
+    width: 730px;
+    height: 270px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    border: 1px solid rgba(204,204,204,1);
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .v215_37 {
+    width: 60px;
+    height: 60px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 31px;
+    left: 30px;
+    overflow: hidden;
+  }
+  .fert {
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    top: 31px;
+    left: 30px;
+    position: absolute;
+  }
+  
+  .v215_33 {
+    width: 100px;
+    color: rgba(99,172,125,1);
+    position: absolute;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 25px;
+    opacity: 1;
+    top: 35px;
+    left: 109px;
+    text-align: left;
+  }
+  .v215_34 {
+    width: 600px;
+    height: 100px;
+    color: rgba(13,43,23,1);
+    position: absolute;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: middle;
+    left:105px;
+    top:80px;
+  }
+  .container {
+    width: 300px;
+    height: 300px;
+    left:50px;
+    position: absolute;
+    top:-10px;
+}
+.image {
+  top: -10px;
+  left: auto;
+  position:absolute;
+}
+.container1 {
+  width: 50%;
+  height: 50%;
+  left:20px;
+  top: 15px;
+  position: absolute;
+}
+</style>
